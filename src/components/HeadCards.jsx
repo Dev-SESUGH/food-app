@@ -2,12 +2,12 @@ const HeadCards = () => {
   return (
     <div className="max-w-[1640px] mx-auto p-4 py-12 grid md:grid-cols-3 gap-6">
       {/* cards */}
-      <div className="rounded-xl relative">
+      <div className="rounded-xl relative hover:scale-105 shadow-2xl duration-300">
         {/* overlay */}
         <div className="absolute w-full h-full bg-black/50 rounded-2xl text-white">
           <p className="font-bold text-2xl pt-4 px-3">Bread done, slice out</p>
           <p className="px-3">Yummy</p>
-          <button className="border-white bg-white text-black mx-2 absolute bottom-4">
+          <button className="border-white bg-white text-black mx-2 absolute bottom-4 btn">
             Order Now
           </button>
         </div>
@@ -18,12 +18,12 @@ const HeadCards = () => {
         />
       </div>
       {/* cards */}
-      <div className="rounded-xl relative">
+      <div className="rounded-xl relative hover:scale-105 shadow-2xl duration-300">
         {/* overlay */}
         <div className="absolute w-full h-full bg-black/50 rounded-2xl text-white">
           <p className="font-bold text-2xl pt-4 px-3">New Restaurant</p>
           <p className="px-3">Added Daily</p>
-          <button className="border-white bg-white text-black mx-2 absolute bottom-4">
+          <button className="border-white bg-white text-black mx-2 absolute bottom-4 btn">
             Order Now
           </button>
         </div>
@@ -34,12 +34,12 @@ const HeadCards = () => {
         />
       </div>
       {/* cards */}
-      <div className="rounded-xl relative">
+      <div className="rounded-xl relative hover:scale-105 shadow-2xl duration-300">
         {/* overlay */}
         <div className="absolute w-full h-full bg-black/50 rounded-2xl text-white">
           <p className="font-bold text-2xl pt-4 px-3">We deliver</p>
           <p className="px-3">Noodles</p>
-          <button className="border-white bg-white text-black mx-2 absolute bottom-4">
+          <button className="border-white bg-white text-black mx-2 absolute bottom-4 btn">
             Order Now
           </button>
         </div>
