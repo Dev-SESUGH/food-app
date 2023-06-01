@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar"
 import HeadCards from "./components/HeadCards"
 import Food from "./components/Food"
 import './Button.css'
+import Category from "./components/Category"
+import Footer from "./components/Footer"
 
 function App() {
   
@@ -14,6 +16,8 @@ function App() {
       <Hero />
       <HeadCards />
       <Food />
+      <Category />
+      <Footer />
     </div>
 
   )
