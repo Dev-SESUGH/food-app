@@ -21,7 +21,7 @@ function App() {
     <>
       {loading ? (
         <div className="flex justify-center items-center h-screen">
-          <BounceLoader color={"#F97316"} loading={loading} size={150} speedMultiplier={2} />
+          <BounceLoader color={"#F97316"} loading={loading} size={150} speedMultiplier={1} />
         </div>
       ) : (
         <div>
