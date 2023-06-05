@@ -14,14 +14,19 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 2000);
   }, []);
 
   return (
     <>
       {loading ? (
         <div className="flex justify-center items-center h-screen">
-          <BounceLoader color={"#F97316"} loading={loading} size={150} speedMultiplier={1} />
+          <BounceLoader
+            color={"#F97316"}
+            loading={loading}
+            size={150}
+            speedMultiplier={1}
+          />
         </div>
       ) : (
         <div>
