@@ -24,7 +24,7 @@ function App() {
           <BounceLoader
             color={"#F97316"}
             loading={loading}
-            size={150}
+            size={200}
             speedMultiplier={1}
           />
         </div>
